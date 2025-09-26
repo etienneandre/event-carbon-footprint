@@ -1,0 +1,679 @@
+{
+  "plane": {
+    "shorthaul.contrails": {
+      "description_FR": "Avion court courrier, avec traînées",
+      "description_EN": "Short haul plane, with contrails",
+      "unit": "km",
+      "group": "plane",
+      "decomposition": {
+        "2022": {
+          "total": {
+            "total": 0.2586,
+            "uncertainty": 0.37
+          },
+          "combustion": {
+            "total": 0.117,
+            "uncertainty": 0.1
+          },
+          "upstream": {
+            "total": 0.0242,
+            "uncertainty": 0.1
+          },
+          "manufacturing": {
+            "total": 0.0004,
+            "uncertainty": 0.1
+          },
+          "fugitive": {
+            "total": 0.117,
+            "uncertainty": 0.7
+          }
+        },
+        "2020": {
+          "total": {
+            "total": 0.2582,
+            "uncertainty": 0.37
+          },
+          "combustion": {
+            "total": 0.117,
+            "uncertainty": 0.1
+          },
+          "upstream": {
+            "total": 0.0242,
+            "uncertainty": 0.1
+          },
+          "fugitive": {
+            "total": 0.117,
+            "uncertainty": 0.7
+          }
+        }
+      }
+    },
+    "mediumhaul.contrails": {
+      "description_FR": "Avion moyen courrier, avec traînées",
+      "description_EN": "Medium haul plane, with contrails",
+      "unit": "km",
+      "group": "plane",
+      "decomposition": {
+        "2022": {
+          "total": {
+            "total": 0.1875,
+            "uncertainty": 0.37
+          },
+          "combustion": {
+            "total": 0.0847,
+            "uncertainty": 0.1
+          },
+          "upstream": {
+            "total": 0.0176,
+            "uncertainty": 0.1
+          },
+          "manufacturing": {
+            "total": 0.0004,
+            "uncertainty": 0.1
+          },
+          "fugitive": {
+            "total": 0.0848,
+            "uncertainty": 0.7
+          }
+        },
+        "2020": {
+          "total": {
+            "total": 0.1871,
+            "uncertainty": 0.37
+          },
+          "combustion": {
+            "total": 0.0847,
+            "uncertainty": 0.1
+          },
+          "upstream": {
+            "total": 0.0176,
+            "uncertainty": 0.1
+          },
+          "fugitive": {
+            "total": 0.0848,
+            "uncertainty": 0.7
+          }
+        }
+      }
+    },
+    "longhaul.contrails": {
+      "description_FR": "Avion long courrier, avec traînées",
+      "description_EN": "Long haul plane, with contrails",
+      "unit": "km",
+      "group": "plane",
+      "decomposition": {
+        "2022": {
+          "total": {
+            "total": 0.152,
+            "uncertainty": 0.37
+          },
+          "combustion": {
+            "total": 0.0687,
+            "uncertainty": 0.1
+          },
+          "upstream": {
+            "total": 0.0143,
+            "uncertainty": 0.1
+          },
+          "manufacturing": {
+            "total": 0.0003,
+            "uncertainty": 0.1
+          },
+          "fugitive": {
+            "total": 0.0687,
+            "uncertainty": 0.7
+          }
+        },
+        "2020": {
+          "total": {
+            "total": 0.1517,
+            "uncertainty": 0.37
+          },
+          "combustion": {
+            "total": 0.0687,
+            "uncertainty": 0.1
+          },
+          "upstream": {
+            "total": 0.0143,
+            "uncertainty": 0.1
+          },
+          "fugitive": {
+            "total": 0.0687,
+            "uncertainty": 0.7
+          }
+        }
+      }
+    }
+  },
+  "railway": {
+    "train.longdistance": {
+      "description_FR": "TGV",
+      "description_EN": "TGV",
+      "unit": "km",
+      "group": "train.longdistance",
+      "decomposition": {
+        "2021": {
+          "total": {
+            "total": 0.0033,
+            "uncertainty": 0.2
+          },
+          "combustion": {},
+          "upstream": {
+            "total": 0.0027,
+            "uncertainty": 0.2
+          },
+          "manufacturing": {
+            "total": 0.0006,
+            "uncertainty": 0.2
+          }
+        },
+        "2019": {
+          "total": {
+            "total": 0.0023,
+            "uncertainty": 0.2
+          },
+          "combustion": {},
+          "upstream": {
+            "total": 0.0017,
+            "uncertainty": 0.2
+          },
+          "manufacturing": {
+            "total": 0.0006,
+            "uncertainty": 0.2
+          }
+        },
+        "2018": {
+          "total": {
+            "total": 0.0025,
+            "uncertainty": 0.2
+          },
+          "combustion": {},
+          "upstream": {
+            "total": 0.0019,
+            "uncertainty": 0.2
+          },
+          "manufacturing": {
+            "total": 0.0006,
+            "uncertainty": 0.2
+          }
+        }
+      }
+    },
+    "train.shortdistance": {
+      "description_FR": "Non disponible",
+      "description_EN": "Not available",
+      "unit": "km",
+      "group": "train.shortdistance",
+      "decomposition": {
+        "2019": {
+          "total": {
+            "total": 0.018,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.006,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.004,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.008,
+            "uncertainty": 0.6
+          }
+        }
+      }
+    },
+    "train.international": {
+      "description_FR": "Non disponible",
+      "description_EN": "Not available",
+      "unit": "km",
+      "group": "train.international",
+      "decomposition": {
+        "2019": {
+          "total": {
+            "total": 0.037,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.0211,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.0139,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.002,
+            "uncertainty": 0.6
+          }
+        }
+      }
+    },
+    "train.mixed": {
+      "description_FR": "Non disponible",
+      "description_EN": "Not available",
+      "unit": "km",
+      "group": "train.mixed",
+      "decomposition": {
+        "2019": {
+          "total": {
+            "total": 0.016,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.009,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.006,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.001,
+            "uncertainty": 0.6
+          }
+        }
+      }
+    },
+    "rer": {
+      "description_FR": "RER Transilien",
+      "description_EN": "Paris suburban express railway including RER",
+      "unit": "km",
+      "group": "public.transportation",
+      "decomposition": {
+        "2021": {
+          "total": {
+            "total": 0.0094,
+            "uncertainty": 0.2
+          },
+          "combustion": {},
+          "upstream": {
+            "total": 0.0062,
+            "uncertainty": 0.2
+          },
+          "manufacturing": {
+            "total": 0.0032,
+            "uncertainty": 0.2
+          }
+        },
+        "2019": {
+          "total": {
+            "total": 0.0073,
+            "uncertainty": 0.2
+          },
+          "combustion": {},
+          "upstream": {
+            "total": 0.0041,
+            "uncertainty": 0.2
+          },
+          "manufacturing": {
+            "total": 0.0032,
+            "uncertainty": 0.2
+          }
+        },
+        "2018": {
+          "total": {
+            "total": 0.0077,
+            "uncertainty": 0.2
+          },
+          "combustion": {},
+          "upstream": {
+            "total": 0.0045,
+            "uncertainty": 0.2
+          },
+          "manufacturing": {
+            "total": 0.0032,
+            "uncertainty": 0.2
+          }
+        }
+      }
+    },
+    "tram.mediumcity": {
+      "description_FR": "Métro, tramway, trolleybus, autres villes - Agglomération de 100 000 à 250 000 habitants",
+      "description_EN": "Subway, tramway, trolleybus, other cities - Agglomeration of 100,000 to 250,000 residents",
+      "unit": "km",
+      "group": "public.transportation",
+      "decomposition": {
+        "2018": {
+          "total": {
+            "total": 0.005,
+            "uncertainty": 0.6
+          },
+          "combustion": {},
+          "upstream": {
+            "total": 0.0047,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.0003,
+            "uncertainty": 0.6
+          }
+        }
+      }
+    },
+    "tram.bigcity": {
+      "description_FR": "Métro, tramway, trolleybus, autres villes - Agglomération > 250 000 habitants",
+      "description_EN": "Subway, tramway, trolleybus, other cities - Agglomeration> 250,000 residents",
+      "unit": "km",
+      "group": "public.transportation",
+      "decomposition": {
+        "2018": {
+          "total": {
+            "total": 0.0033,
+            "uncertainty": 0.6
+          },
+          "combustion": {},
+          "upstream": {
+            "total": 0.003,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.0003,
+            "uncertainty": 0.6
+          }
+        }
+      }
+    },
+    "subway": {
+      "description_FR": "Métro Ile de France",
+      "description_EN": "Ile de France subway",
+      "unit": "km",
+      "group": "public.transportation",
+      "decomposition": {
+        "2021": {
+          "total": {
+            "total": 0.004,
+            "uncertainty": 0.2
+          },
+          "combustion": {},
+          "upstream": {
+            "total": 0.0038,
+            "uncertainty": 0.2
+          },
+          "manufacturing": {
+            "total": 0.0002,
+            "uncertainty": 0.2
+          }
+        },
+        "2019": {
+          "total": {
+            "total": 0.0027,
+            "uncertainty": 0.2
+          },
+          "combustion": {},
+          "upstream": {
+            "total": 0.0025,
+            "uncertainty": 0.2
+          },
+          "manufacturing": {
+            "total": 0.0002,
+            "uncertainty": 0.2
+          }
+        },
+        "2018": {
+          "total": {
+            "total": 0.0028,
+            "uncertainty": 0.2
+          },
+          "combustion": {},
+          "upstream": {
+            "total": 0.0026,
+            "uncertainty": 0.2
+          },
+          "manufacturing": {
+            "total": 0.0002,
+            "uncertainty": 0.2
+          }
+        }
+      }
+    }
+  },
+  "bus": {
+    "bus.intercity": {
+      "description_FR": "Autocar - trajets intercités",
+      "description_EN": "Bus - Intercity travels",
+      "unit": "km",
+      "group": "public.transportation",
+      "decomposition": {
+        "2021": {
+          "total": {
+            "total": 0.0306,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.0237,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.0058,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.0011,
+            "uncertainty": 0.6
+          }
+        },
+        "2020": {
+          "total": {
+            "total": 0.0364,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.0279,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.0072,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.0013,
+            "uncertainty": 0.6
+          }
+        }
+      }
+    },
+    "bus.bigcity": {
+      "description_FR": "Autobus moyen - Agglomération de plus de 250 000 habitants",
+      "description_EN": "Medium bus - Agglomeration of more than 250,000 residents",
+      "unit": "km",
+      "group": "public.transportation",
+      "decomposition": {
+        "2021": {
+          "total": {
+            "total": 0.129,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.0225,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.0852,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.0213,
+            "uncertainty": 0.6
+          }
+        },
+        "2019": {
+          "total": {
+            "total": 0.135,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.1032,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.0258,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.006,
+            "uncertainty": 0.6
+          }
+        }
+      }
+    },
+    "bus.mediumcity": {
+      "description_FR": "Autobus moyen - Agglomération de 100 000 à 250 000 habitants",
+      "description_EN": "Medium bus - Agglomeration of 100,000 to 250,000 residents",
+      "unit": "km",
+      "group": "public.transportation",
+      "decomposition": {
+        "2021": {
+          "total": {
+            "total": 0.137,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.0096,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.1019,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.0255,
+            "uncertainty": 0.6
+          }
+        },
+        "2019": {
+          "total": {
+            "total": 0.146,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.1096,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.0274,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.009,
+            "uncertainty": 0.6
+          }
+        },
+        "2014": {
+          "total": {
+            "total": 1.9698,
+            "uncertainty": 0.2
+          },
+          "combustion": {
+            "total": 1.453,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.4267,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.0901,
+            "uncertainty": 0.6
+          }
+        }
+      }
+    },
+    "bus.smallcity": {
+      "description_FR": "Autobus moyen - Agglomération moins de 100 000 habitants",
+      "description_EN": "Medium bus - Agglomeration less than 100,000 residents",
+      "unit": "km",
+      "group": "public.transportation",
+      "decomposition": {
+        "2021": {
+          "total": {
+            "total": 0.146,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.0565,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.0716,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.0179,
+            "uncertainty": 0.6
+          }
+        },
+        "2019": {
+          "total": {
+            "total": 0.156,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.1168,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.0292,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.01,
+            "uncertainty": 0.6
+          }
+        }
+      }
+    }
+  },
+  "boat": {
+    "ferry": {
+      "description_FR": "Ferry de jour",
+      "description_EN": "Day ferry",
+      "unit": "km",
+      "group": "boat.ferry",
+      "decomposition": {
+        "2019": {
+          "total": {
+            "total": 0.979,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.839,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.14,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {}
+        }
+      }
+    }
+  },
+  "guided.transport": {
+    "cable.car": {
+      "description_FR": "Télécabine",
+      "description_EN": "Cable car",
+      "unit": "km",
+      "group": "cable.car",
+      "decomposition": {
+        "2017": {
+          "total": {
+            "total": 0.0295,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.0178,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.0117,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {}
+        }
+      }
+    }
+  }
+}

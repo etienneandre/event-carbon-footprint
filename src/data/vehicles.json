@@ -1,0 +1,635 @@
+{
+  "car": {
+    "gasoline": {
+      "description_FR": "Voiture particulière, moyenne parc, motorisation essence",
+      "description_EN": "Private car, average fleet, gasoline engine",
+      "unit": "km",
+      "group": "thermal.car",
+      "decomposition": {
+        "2018": {
+          "total": {
+            "total": 0.2234,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.162,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.0358,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.0256,
+            "uncertainty": 0.6
+          }
+        }
+      }
+    },
+    "diesel": {
+      "description_FR": "Voiture particulière , moyenne parc, motorisation gazole",
+      "description_EN": "Private car, average fleet, diesel engine",
+      "unit": "km",
+      "group": "thermal.car",
+      "decomposition": {
+        "2018": {
+          "total": {
+            "total": 0.2121,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.15,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.0365,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.0256,
+            "uncertainty": 0.6
+          }
+        }
+      }
+    },
+    "unknown.engine": {
+      "description_FR": "Voiture particulière, moyenne parc, motorisation moyenne",
+      "description_EN": "Private car, average fleet, medium engine",
+      "unit": "km",
+      "group": "thermal.car",
+      "decomposition": {
+        "2018": {
+          "total": {
+            "total": 0.2156,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.152,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.038,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.0256,
+            "uncertainty": 0.6
+          }
+        }
+      }
+    },
+    "lpg": {
+      "description_FR": "Voiture particulière, moyenne parc, motorisation GPL",
+      "description_EN": "Private car, average fleet, LPG engine",
+      "unit": "km",
+      "group": "thermal.car",
+      "decomposition": {
+        "2018": {
+          "total": {
+            "total": 0.2174,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.165,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.0268,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.0256,
+            "uncertainty": 0.6
+          }
+        }
+      }
+    },
+    "cng": {
+      "description_FR": "Voiture particulière, moyenne parc, motorisation GNV",
+      "description_EN": "Private car, average fleet, CNG engine",
+      "unit": "km",
+      "group": "thermal.car",
+      "decomposition": {
+        "2018": {
+          "total": {
+            "total": 0.2218,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.159,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.0372,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.0256,
+            "uncertainty": 0.6
+          }
+        }
+      }
+    },
+    "e85": {
+      "description_FR": "Voiture particulière, moyenne parc, motorisation E85",
+      "description_EN": "Private car, average fleet, E85 engine",
+      "unit": "km",
+      "group": "thermal.car",
+      "decomposition": {
+        "2018": {
+          "total": {
+            "total": 0.1467,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.0403,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.0808,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.0256,
+            "uncertainty": 0.6
+          }
+        }
+      }
+    },
+    "hybrid": {
+      "description_FR": "Voiture particulière - Coeur de gamme - Véhicule compact - Hybride full P2",
+      "description_EN": "Private car - Core range - Compact vehicle - Full P2 hybrid",
+      "unit": "km",
+      "group": "thermal.car",
+      "decomposition": {
+        "2020": {
+          "total": {
+            "total": 0.1828,
+            "uncertainty": 0.7
+          },
+          "combustion": {
+            "total": 0.106,
+            "uncertainty": 0.7
+          },
+          "upstream": {
+            "total": 0.0287,
+            "uncertainty": 0.7
+          },
+          "manufacturing": {
+            "total": 0.0481,
+            "uncertainty": 0.7
+          }
+        }
+      }
+    },
+    "electric": {
+      "description_FR": "Voiture particulière - Coeur de gamme - Véhicule compact - Electrique",
+      "description_EN": "Private car - Core range - Compact vehicle - Electric",
+      "unit": "km",
+      "group": "electric.car",
+      "decomposition": {
+        "2020": {
+          "total": {
+            "total": 0.1034,
+            "uncertainty": 0.7
+          },
+          "combustion": {},
+          "upstream": {
+            "total": 0.0198,
+            "uncertainty": 0.7
+          },
+          "manufacturing": {
+            "total": 0.0836,
+            "uncertainty": 0.7
+          }
+        }
+      }
+    }
+  },
+  "motorbike": {
+    "gasoline": {
+      "description_FR": "Moto >= 250 cm3 mixte",
+      "description_EN": "Motorcycle >= 250 cm3 mixed",
+      "unit": "km",
+      "group": "motorbike.gasoline",
+      "decomposition": {
+        "2018": {
+          "total": {
+            "total": 0.1913,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.135,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.0298,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.0265,
+            "uncertainty": 0.6
+          }
+        },
+        "2015": {
+          "total": {
+            "total": 0.2037,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "total": 0.135,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 0.032,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {
+            "total": 0.0367,
+            "uncertainty": 0.6
+          }
+        }
+      }
+    }
+  },
+  "bike": {
+    "muscular": {
+      "description_FR": "Non disponible",
+      "description_EN": "Not available",
+      "unit": "km",
+      "group": "bike.muscular",
+      "decomposition": {
+        "2019": {
+          "total": {
+            "total": 0.005,
+            "uncertainty": 0.7
+          },
+          "combustion": {},
+          "upstream": {},
+          "manufacturing": {
+            "total": 0.005,
+            "uncertainty": 0.7
+          }
+        }
+      }
+    },
+    "electric": {
+      "description_FR": "VAE, bicyclette a assistance électrique",
+      "description_EN": "Ebike, electric bike",
+      "unit": "km",
+      "group": "bike.electric",
+      "decomposition": {
+        "2020": {
+          "total": {
+            "total": 0.0109,
+            "uncertainty": 0.5
+          },
+          "combustion": {},
+          "upstream": {
+            "total": 0.00223,
+            "uncertainty": 0.5
+          },
+          "manufacturing": {
+            "total": 0.0087,
+            "uncertainty": 0.5
+          }
+        }
+      }
+    }
+  },
+  "scooter": {
+    "electric": {
+      "description_FR": "Trotinette electrique",
+      "description_EN": "Electric scooter",
+      "unit": "km",
+      "group": "scooter.electric",
+      "decomposition": {
+        "2020": {
+          "total": {
+            "total": 0.0249,
+            "uncertainty": 0.5
+          },
+          "combustion": {},
+          "upstream": {
+            "total": 0.002,
+            "uncertainty": 0.5
+          },
+          "manufacturing": {
+            "total": 0.0229,
+            "uncertainty": 0.5
+          }
+        }
+      }
+    }
+  },
+  "aircraft": {
+    "plane.pistons": {
+      "description_FR": "Essence aviation (AvGas) France continentale",
+      "description_EN": "Aviation gasoline (AvGas) Mainland France",
+      "unit": "litre",
+      "group": "fuel.amount",
+      "decomposition": {
+        "2014": {
+          "total": {
+            "co2": 2.96,
+            "ch4": 0.0513,
+            "total": 3.0113,
+            "uncertainty": 0.05
+          },
+          "combustion": {
+            "co2": 2.48,
+            "total": 2.48,
+            "uncertainty": 0.05
+          },
+          "upstream": {
+            "co2": 0.48,
+            "ch4": 0.0513,
+            "total": 0.5313,
+            "uncertainty": 0.05
+          },
+          "manufacturing": {}
+        }
+      }
+    },
+    "helicopter.pistons": {
+      "description_FR": "Essence aviation (AvGas) France continentale",
+      "description_EN": "Aviation gasoline (AvGas) Mainland France",
+      "unit": "litre",
+      "group": "fuel.amount",
+      "decomposition": {
+        "2014": {
+          "total": {
+            "co2": 2.96,
+            "ch4": 0.0513,
+            "total": 3.0113,
+            "uncertainty": 0.05
+          },
+          "combustion": {
+            "co2": 2.48,
+            "total": 2.48,
+            "uncertainty": 0.05
+          },
+          "upstream": {
+            "co2": 0.48,
+            "ch4": 0.0513,
+            "total": 0.5313,
+            "uncertainty": 0.05
+          },
+          "manufacturing": {}
+        }
+      }
+    },
+    "plane.turbines": {
+      "description_FR": "Kérosène Jet A1 ou A France continentale",
+      "description_EN": "Kerosene Jet A1 or A Mainland France",
+      "unit": "litre",
+      "group": "fuel.amount",
+      "decomposition": {
+        "2018": {
+          "total": {
+            "co2": 3.019,
+            "ch4": 0.0545,
+            "n2o": 0.0056,
+            "total": 3.0791,
+            "uncertainty": 0.05
+          },
+          "combustion": {
+            "co2": 2.54,
+            "ch4": 0.0032,
+            "n2o": 0.0056,
+            "total": 2.5488,
+            "uncertainty": 0.05
+          },
+          "upstream": {
+            "co2": 0.479,
+            "ch4": 0.0513,
+            "total": 0.5303,
+            "uncertainty": 0.05
+          },
+          "manufacturing": {}
+        }
+      }
+    },
+    "helicopter.turbines": {
+      "description_FR": "Kérosène Jet A1 ou A France continentale",
+      "description_EN": "Kerosene Jet A1 or A Mainland France",
+      "unit": "litre",
+      "group": "fuel.amount",
+      "decomposition": {
+        "2018": {
+          "total": {
+            "co2": 3.019,
+            "ch4": 0.0545,
+            "n2o": 0.0056,
+            "total": 3.0791,
+            "uncertainty": 0.05
+          },
+          "combustion": {
+            "co2": 2.54,
+            "ch4": 0.0032,
+            "n2o": 0.0056,
+            "total": 2.5488,
+            "uncertainty": 0.05
+          },
+          "upstream": {
+            "co2": 0.479,
+            "ch4": 0.0513,
+            "total": 0.5303,
+            "uncertainty": 0.05
+          },
+          "manufacturing": {}
+        }
+      }
+    }
+  },
+  "boat": {
+    "gasoline": {
+      "description_FR": "Essence - Supercarburant sans plomb (95, 95-E10, 98)",
+      "description_EN": "Gasoline - Premium unleaded (95, 95-E10, 98)",
+      "unit": "litre",
+      "group": "fuel.amount",
+      "decomposition": {
+        "2021": {
+          "total": {
+            "co2": 6.083,
+            "ch4": 0.1636,
+            "n2o": 0.2585,
+            "total": 6.5051,
+            "uncertainty": 0.1
+          },
+          "combustion": {
+            "co2": 4.69,
+            "ch4": 0.0382,
+            "n2o": 0.0385,
+            "total": 4.7667,
+            "uncertainty": 0.1
+          },
+          "upstream": {
+            "co2": 1.393,
+            "ch4": 0.1254,
+            "n2o": 0.22,
+            "total": 1.7384,
+            "uncertainty": 0.1
+          },
+          "manufacturing": {}
+        },
+        "2016": {
+          "total": {
+            "co2": 4.178,
+            "ch4": 0.0893,
+            "n2o": 0.219,
+            "total": 4.4863,
+            "uncertainty": 0.1
+          },
+          "combustion": {
+            "co2": 2.9,
+            "ch4": 0.0197,
+            "n2o": 0.0267,
+            "total": 2.9464,
+            "uncertainty": 0.1
+          },
+          "upstream": {
+            "co2": 1.278,
+            "ch4": 0.0696,
+            "n2o": 0.1923,
+            "total": 1.5399,
+            "uncertainty": 0.1
+          },
+          "manufacturing": {}
+        }
+      }
+    },
+    "heavy.oil": {
+      "description_FR": "HFO (Heavy Fuel Oil) - ISO 8217 classes RME à RMK",
+      "description_EN": "HFO (Heavy Fuel Oil) - ISO 8217 classes RME to RMK",
+      "unit": "litre",
+      "group": "fuel.amount",
+      "decomposition": {
+        "2014": {
+          "total": {
+            "co2": 2.893,
+            "ch4": 0.0399,
+            "total": 2.9329,
+            "uncertainty": 0.05
+          },
+          "combustion": {
+            "co2": 2.48,
+            "total": 2.48,
+            "uncertainty": 0.05
+          },
+          "upstream": {
+            "co2": 0.413,
+            "ch4": 0.0399,
+            "total": 0.4529,
+            "uncertainty": 0.05
+          },
+          "manufacturing": {}
+        }
+      }
+    },
+    "light.oil": {
+      "description_FR": "LFO (Light Fuel Oil) - ISO 8217 classes RMA à RMD (maritime)",
+      "description_EN": "LFO (Light Fuel Oil) - ISO 8217 classes RMA to RMD (maritime)",
+      "unit": "litre",
+      "group": "fuel.amount",
+      "decomposition": {
+        "2014": {
+          "total": {
+            "co2": 2.999,
+            "ch4": 0.0516,
+            "total": 3.0506,
+            "uncertainty": 0.05
+          },
+          "combustion": {
+            "co2": 2.48,
+            "total": 2.48,
+            "uncertainty": 0.05
+          },
+          "upstream": {
+            "co2": 0.519,
+            "ch4": 0.0516,
+            "total": 0.5706,
+            "uncertainty": 0.05
+          },
+          "manufacturing": {}
+        }
+      }
+    },
+    "diesel": {
+      "description_FR": "MDO (Marine Diesel Oil) - ISO 8217 classes DMX à DMC",
+      "description_EN": "MDO (Marine Diesel Oil) - ISO 8217 classes DMX to DMC",
+      "unit": "litre",
+      "group": "fuel.amount",
+      "decomposition": {
+        "2014": {
+          "total": {
+            "co2": 2.999,
+            "ch4": 0.0516,
+            "total": 3.0506,
+            "uncertainty": 0.05
+          },
+          "combustion": {
+            "co2": 2.48,
+            "total": 2.48,
+            "uncertainty": 0.05
+          },
+          "upstream": {
+            "co2": 0.519,
+            "ch4": 0.0516,
+            "total": 0.5706,
+            "uncertainty": 0.05
+          },
+          "manufacturing": {}
+        }
+      }
+    },
+    "campaigns.offshore": {
+      "description_FR": "Bateau oceanographique avec couchage à bord - Non disponible dans base ademe",
+      "description_EN": "Oceanographic vessel including on-board sleeping - non available in Ademe database",
+      "unit": "jour.mer",
+      "group": "boat.campaigns",
+      "decomposition": {
+        "2019": {
+          "total": {
+            "total": 910,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "co2": 771,
+            "total": 771,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 139,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {}
+        }
+      }
+    },
+    "campaigns.station": {
+      "description_FR": "Bateau oceanographique local sans couchage à bord - Non disponible dans base ademe",
+      "description_EN": "Oceanographic vessel without on-board sleeping - non available in Ademe database",
+      "unit": "heure.mer",
+      "group": "boat.campaigns",
+      "decomposition": {
+        "2019": {
+          "total": {
+            "total": 7.6,
+            "uncertainty": 0.6
+          },
+          "combustion": {
+            "co2": 6.4,
+            "total": 6.4,
+            "uncertainty": 0.6
+          },
+          "upstream": {
+            "total": 1.2,
+            "uncertainty": 0.6
+          },
+          "manufacturing": {}
+        }
+      }
+    }
+  }
+}

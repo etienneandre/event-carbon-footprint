@@ -1,0 +1,86 @@
+{
+  "vegan": {
+    "description_FR": "Repas végétalien",
+    "description_EN": "Vegan meal",
+    "unit": "meal",
+    "group": "vegan",
+    "decomposition": {
+      "2021": {
+        "total": {
+          "total": 0.785,
+          "uncertainty": 0.5
+        }
+      }
+    }
+  },
+  "vegetarian": {
+    "description_FR": "Repas végétarien",
+    "description_EN": "Vegetarian meal",
+    "unit": "meal",
+    "group": "vegetarian",
+    "decomposition": {
+      "2021": {
+        "total": {
+          "total": 1.115,
+          "uncertainty": 0.5
+        }
+      }
+    }
+  },
+  "classic.meet1": {
+    "description_FR": "Repas classique avec viande blanche",
+    "description_EN": "Classic meal with white meet",
+    "unit": "meal",
+    "group": "classic.meet1",
+    "decomposition": {
+      "2021": {
+        "total": {
+          "total": 2.098,
+          "uncertainty": 0.5
+        }
+      }
+    }
+  },
+  "classic.meet2": {
+    "description_FR": "Repas classique avec viande rouge",
+    "description_EN": "Classic meal with red meet",
+    "unit": "meal",
+    "group": "classic.meet2",
+    "decomposition": {
+      "2021": {
+        "total": {
+          "total": 5.51,
+          "uncertainty": 0.5
+        }
+      }
+    }
+  },
+  "classic.fish1": {
+    "description_FR": "Repas classique avec poisson n°1",
+    "description_EN": "Classic meal with fish #1",
+    "unit": "meal",
+    "group": "classic.fish1",
+    "decomposition": {
+      "2021": {
+        "total": {
+          "total": 1.63,
+          "uncertainty": 0.5
+        }
+      }
+    }
+  },
+  "classic.fish2": {
+    "description_FR": "Repas classique avec poisson n°2",
+    "description_EN": "Classic meal with fish #2",
+    "unit": "meal",
+    "group": "classic.fish2",
+    "decomposition": {
+      "2021": {
+        "total": {
+          "total": 2.368,
+          "uncertainty": 0.5
+        }
+      }
+    }
+  }
+}
