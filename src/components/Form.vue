@@ -288,7 +288,7 @@ function buildTotalChart() {
   totalPieChart = buildPieChart(
     totalChartRef,
     totalPieChart,
-    ['Travels', 'Meals'],
+    ['Meals', 'Travels'],
     Object.values(totalEmissionsList.value),
     ['#1F9E89', '#35B779']
   )
