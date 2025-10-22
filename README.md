@@ -20,7 +20,7 @@ A web application to calculate and visualize the carbon footprint of scientific 
   ```bash
     nvm install 20  
     nvm use 20  
-    ```
+  ```
   - Or install it via your package manager, depending on your system:  
     - **Windows** → download the installer from the official website  
     - **Linux/macOS** → use the commands above with `nvm`  
@@ -31,26 +31,16 @@ A web application to calculate and visualize the carbon footprint of scientific 
 ```bash
   rm -rf node_modules package-lock.json  
   npm install
-  ```
+```
 
 - Start the development server
 ```bash  
   npm run dev
-  ```
+```
 
 ---
 
-Once the server is running, open your browser and navigate to:  
-http://localhost:5173/
-
----
-
-## Usage
-
-Once the server is running, you can interact with the app to:
-
-- Calculate the carbon footprint
-- Visualize emissions data in charts 
+Once the server is running, open your browser and navigate to: http://localhost:5173/
 
 ---
 
