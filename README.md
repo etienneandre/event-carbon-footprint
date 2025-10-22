@@ -7,14 +7,20 @@ A web application to calculate and visualize the carbon footprint of scientific 
 ## Installation
 
 - Clone the repository  
+```bash
   git clone https://github.com/etienneandre/event-carbon-footprint.git  
   cd event-carbon-footprint
+```
 
 - Check your Node.js version  
+```bash
   node -v  
+```
   - If your version is **lower than 18**, upgrade to Node 20:  
+  ```bash
     nvm install 20  
     nvm use 20  
+    ```
   - Or install it via your package manager, depending on your system:  
     - **Windows** → download the installer from the official website  
     - **Linux/macOS** → use the commands above with `nvm`  
@@ -22,11 +28,15 @@ A web application to calculate and visualize the carbon footprint of scientific 
     > Recommended: Node.js **v20 or higher**
 
 - Clean and reinstall dependencies (after upgrading Node.js)  
+```bash
   rm -rf node_modules package-lock.json  
   npm install
+  ```
 
-- Start the development server  
+- Start the development server
+```bash  
   npm run dev
+  ```
 
 ---
 
